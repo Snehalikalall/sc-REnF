@@ -12,3 +12,9 @@ A novel and Robust Entropy based Feature (gene) Selection method for large Singl
 # Aplication of sc-REnF
 
 Laod the following libraies.  
+
+```
+git status
+git add
+git commit
+```
