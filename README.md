@@ -14,7 +14,8 @@ A novel and Robust Entropy based Feature (gene) Selection method for large Singl
 Laod the following libraies.  
 
 ```
-git status
-git add
-git commit
+library('MASS')
+library(foreach)
+library(doParallel)
+library('Rfast')
 ```
