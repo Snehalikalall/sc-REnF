@@ -15,6 +15,8 @@ The default core, p=20, and q-value is (q=0.7,0.3) for Renyi and Tsallis respect
 
 > R packages: SingleCellExperiment, edgeR, scDatasets, biomaRt, Linnorm, Rfast, foreach, doParallel, MASS
 
+> Python Packages: scanpy, leidenalg
+
 
 # How to use sc-REnF 
 
