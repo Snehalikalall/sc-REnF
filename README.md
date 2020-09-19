@@ -1,19 +1,23 @@
-# Introduction to sc-REnF
-
+# sc-REnF
 
 An Entropy Based Feature Selection- Application on Single cell RNA Sequence Data
 
-# Summary
+
+Load the dataset from **Data** folder and Run the **Featureelection.R** code. 
+
+The default core, p=20, and q-value is (q=0.7,0.3) for Renyi and Tsallis respectively. 
+
+## Pre-requisites
+
+> R version  4.0
+
+> Python 3.7
+
+> Python packages: sklearn, multiprocessing
 
 
-A novel and Robust Entropy based Feature (gene) Selection method for large Single-cell RNA-seq data, using  Renyi ´and Tsallis entropy. The SC-REnF is also demonstrated for identifying marker genes from different cell types. Our results shed some light on the single-cell clustering problem with the application of entropy based feature selection, and therefore, it will be an important tool to complement existing methods in the scRNA-seq analysis pipeline. Results are shown here in brief.
+# How to use sc-REnF 
+
+The details to run the codes is given in link- 
 
 
-# How to use sc-REnF
-
-Laod the following libraies.  
-
-```
-library(Copula)
-library('Rfast')
-```
