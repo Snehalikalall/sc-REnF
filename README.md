@@ -14,8 +14,6 @@ A novel and Robust Entropy based Feature (gene) Selection method for large Singl
 Laod the following libraies.  
 
 ```
-library('MASS')
-library(foreach)
-library(doParallel)
+library(Copula)
 library('Rfast')
 ```
