@@ -21,6 +21,7 @@ The default core, p=20, and q-value is (q=0.7,0.3) for Renyi and Tsallis respect
 # How to use sc-REnF 
 
 [A demo run of sc-REnF for Darmanis data](https://snehalikalall.github.io/Introduction-to-scREnf/)
-[A demo run of sc-REnF for CBMC data]
+
+A demo run of sc-REnF for CBMC data
 
 
