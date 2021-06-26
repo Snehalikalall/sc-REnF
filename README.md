@@ -51,7 +51,7 @@ Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to s
 
     # load the preprocess data
     data=t(as.matrix(read.csv("yan_process.csv",header=FALSE)))
-    cell<-as.matrix(read.csv("celltype.csv",header=FALSE))
+    cell<-as.matrix(read.csv("yan_celltype.csv",header=FALSE))
     n <- nrow(data)
     col<-ncol(data)
     count=ncol(data)
