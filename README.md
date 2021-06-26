@@ -66,9 +66,7 @@ Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to s
 
 
 
-# How to use sc-REnF 
-
-[A demo run of sc-REnF for Darmanis data](https://snehalikalall.github.io/Introduction-to-scREnF/)
+# A dry run on CBMC data 
 
 [A demo run of sc-REnF for CBMC data](https://snehalikalall.github.io/Introduction-to-sc-REnF/)
 
