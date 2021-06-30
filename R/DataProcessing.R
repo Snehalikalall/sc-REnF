@@ -1,11 +1,9 @@
 normalized_data <- function (raw_Data, min_Reads = 5, min_Cell = 0.1, min_Gene = 1000,
                              log = T)
 {
- # library(SingleCellExperiment)
-#  library(edgeR)
-  #library(scDatasets)
-  #library(biomaRt)
-#  library('Linnorm')
+ library(SingleCellExperiment)
+  library(edgeR)
+  library('Linnorm')
 
   #cell Filtering
   MIN = min(raw_Data)
