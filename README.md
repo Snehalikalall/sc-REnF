@@ -23,10 +23,8 @@ R packages
 
      library(SingleCellExperiment)
      library(edgeR)
-     library(MASS)
      library(foreach)
      library(doParallel)
-     library(biomaRt)
      library(Linnorm)
      library(splatter)
 
