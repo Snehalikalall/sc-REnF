@@ -20,7 +20,6 @@ count=ncol(data)
 cl <- makeCluster(p)
 registerDoParallel(cl)
 fea<- matrix(0, nrow=1,ncol =nf)
-start.time <- Sys.time()
 parl<-foreach(j=1:count, .combine=c) %dopar%
   {
     u<-as.matrix(cbind(classc,data[,j]))
