@@ -53,7 +53,10 @@ Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to s
     n <- nrow(data)
     col<-ncol(data)
     count=ncol(data)
-    #nf: Number of feature to be selected, default is 500; P: Number of cores, default is 30;
+    p=40
+    q=0.3
+    nf=500
+    #nf: Number of feature to be selected, default is 500; P: Number of cores, default is 40;
     # q-value = 0.3 for tsallis, q-value=0.7 for Renyi
 
     # Renyi entropy based Feature Selection, the function returns data with selected features
