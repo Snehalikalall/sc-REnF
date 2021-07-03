@@ -2,14 +2,16 @@ Renyifeature <- function(data,cell,p,q,nf){
 library(foreach)
 library(doParallel)
  
- # Cells sholud be in rwo, Genes should be in coloumn in data
+ #data=a matrix format, Cells sholud be in rwo, Genes should be in coloumn in data
+ # cell = cell types of data
 data=as.matrix(data)
 classc=cell
 n <- nrow(data)
 col<-ncol(data)
 count=ncol(data)
-#Number of feature to be selected
-nf=500
+#nf=Number of feature to be selected.
+#p=Number of cores. 
+#q= Tuned parameter of Renyi. 
 
 
 
