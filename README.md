@@ -48,6 +48,7 @@ Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to s
     # load the preprocess data. Data should be cells in row, genes in coloumn.
     data=t(as.matrix(read.csv("yan_process.csv",header=FALSE)))
     cell<-as.matrix(read.csv("yan_celltype.csv",header=FALSE))
+    gene<-as.matrix(read.csv("yan_gene.csv",header=FALSE))
     n <- nrow(data)
     col<-ncol(data)
     count=ncol(data)
