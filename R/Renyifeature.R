@@ -50,6 +50,8 @@ for(i in 1:(nf-1))
 }
 stopCluster(cl)
 Renyidata=data[,fea] # Feature reduced Data with renyi entropy
+colnames(Renyidata)=as.matrix(gene[fea])
+rownames(Renyidata)=as.matrix(cell) 
 
   return(Renyidata)
 }
