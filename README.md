@@ -36,7 +36,7 @@ Python Packages:
 
 ## Usage of the R functions
 
-Preprocess raw data using normalized_data.R function
+Preprocess raw data using DataProcessing.R function
 
     Biase_data<- readRDS("yan.rds")
     data <- assay(Biase_data) 
@@ -47,7 +47,7 @@ Preprocess raw data using normalized_data.R function
 
 Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to select features using Tsallis entropy
 
-    # load the preprocess data
+    # load the preprocess data. Data should be cells in row, genes in coloumn.
     data=t(as.matrix(read.csv("yan_process.csv",header=FALSE)))
     cell<-as.matrix(read.csv("yan_celltype.csv",header=FALSE))
     n <- nrow(data)
