@@ -40,7 +40,7 @@ Preprocess raw data using DataProcessing.R function
     data <- assay(Biase_data) 
     annotation <- Biase_data[[1]] #already factor type class
     colnames(data) <- annotation
-    preprocessed_data = normalized_data(data, 5, 0.1, 1000, T)
+    preprocessed_data = normalized_data(data)
 
 
 Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to select features using Tsallis entropy
