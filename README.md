@@ -22,11 +22,9 @@ library(scREnF)
 R packages
 
      library(SingleCellExperiment)
-     library(edgeR)
      library(foreach)
      library(doParallel)
      library(Linnorm)
-     library(splatter)
 
 Python Packages: 
  
