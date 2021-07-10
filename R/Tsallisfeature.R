@@ -1,5 +1,5 @@
 # Tsallis Entropy based feature selection
-Tsallisfeature <- function(data,cell,p,q,nf){
+Tsallisfeature <- function(data,cell,gene,p,q,nf){
  library(foreach)
 library(doParallel)
  
@@ -55,5 +55,7 @@ for(i in 1:(nf-1))
 stopCluster(cl)
  # Feature reduced data with Tsallis entropy
  tsalisdata=data[,fea] 
+colnames(tsalisdata)=as.matrix(gene[fea])
+rownames(tsalisdata)=as.matrix(cell) 
  return(tsalisdata)
 }
