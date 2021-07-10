@@ -1,4 +1,4 @@
-Renyifeature <- function(data,cell,p,q,nf){
+Renyifeature <- function(data,cell,gene,p,q,nf){
 library(foreach)
 library(doParallel)
  
