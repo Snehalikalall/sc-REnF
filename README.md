@@ -61,7 +61,7 @@ Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to s
     # Renyi entropy based Feature Selection, the function returns data with selected features
     Feadata=Renyifeature(data,cell,gene,p,q,nf)
     
-    # Renyi entropy based Feature Selection, the function returns the data with selected features
+    # Tsallis entropy based Feature Selection, the function returns the data with selected features
     Feadata=Tsallisfeature(data,cell,gene,p,q,nf)
 
 
