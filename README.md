@@ -36,7 +36,7 @@ Python Packages:
 
 Preprocess raw data using DataProcessing.R function
 
-    Biase_data<- readRDS("yan.rds")
+    Biase_data<- readRDS("Data/yan.rds")
     data <- assay(Biase_data) 
     annotation <- Biase_data[[1]] #already factor type class
     colnames(data) <- annotation
@@ -46,9 +46,9 @@ Preprocess raw data using DataProcessing.R function
 Use Renyifeature.R to select features using Renyi entropy, Tsallisfeature.R to select features using Tsallis entropy
 
     # load the preprocess data. Data should be cells in row, genes in coloumn.
-    data=t(as.matrix(read.csv("yan_process.csv",header=FALSE)))
-    cell<-as.matrix(read.csv("yan_celltype.csv",header=FALSE))
-    gene<-as.matrix(read.csv("yan_gene.csv",header=FALSE))
+    data=t(as.matrix(read.csv("Data/yan_process.csv",header=FALSE)))
+    cell<-as.matrix(read.csv("Data/yan_celltype.csv",header=FALSE))
+    gene<-as.matrix(read.csv("Data/yan_gene.csv",header=FALSE))
     n <- nrow(data)
     col<-ncol(data)
     count=ncol(data)
